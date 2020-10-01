@@ -1,0 +1,6 @@
+nome = input('Digite o nome completo: ')
+print('Todas as letras maiúsculas: {}\nTodas letras minúsculas: {}'.format(nome.upper(), nome.lower()))
+# outro jeito de fazer: len(nome)-nome.count(' ')
+nome2 = nome.split()
+print(len(''.join(nome2)))
+print(len(nome2[0]))

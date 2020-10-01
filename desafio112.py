@@ -1,0 +1,6 @@
+from modulos import moeda
+from modulos import dado
+
+
+p = dado.leiaDinheiro('Digite o preço: R$')
+moeda.resumo(p, 35, True)
